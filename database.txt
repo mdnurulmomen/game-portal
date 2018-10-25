@@ -1,0 +1,16 @@
+Id
+GameName
+Description
+Types/Category
+Content_Owner
+GameFiles
+Previews
+Date(View but auto Insert)
+Edited Date(later)
+Rating(later)
+Downloads(later)
+
+
+headerVideos
+headerWallpapers
+

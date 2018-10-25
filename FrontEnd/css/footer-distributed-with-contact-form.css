@@ -1,0 +1,66 @@
+.footer-distributed{
+	padding-top: 30px;
+	box-sizing: border-box;
+	width: 100%;
+	/* font: bold 16px sans-serif; */
+	margin-top: 3px;
+	overflow: hidden;
+	text-align : center;
+}
+
+.footer-distributed .footer-links{
+	color:  blue;
+	margin: 4px 0 0px 0;
+	/* padding: 0; */
+}
+
+.footer-distributed .footer-links a{
+	text-decoration: none;
+	font-weight: bold;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #48494a;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 0 15px 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 6px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	/* background-color:  #33383b; */
+	border-radius: 20px;
+	border: 1px solid #A4C6E2;
+	line-height: 35px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		/* font: bold 14px sans-serif; */
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 11px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		/* padding: 30px; */
+	}
+}

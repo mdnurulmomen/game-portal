@@ -1,0 +1,221 @@
+.container-fluid img, .container img {
+  margin-bottom: 5px; }
+.container-fluid .img-thumbnail, .container .img-thumbnail {
+  width: 100%;
+  padding: 2px;
+  box-shadow: 0px 1px 2px #A4C6E2; }
+.container-fluid .img-responsive, .container .img-responsive {
+  width: 100%;
+  height: 100%; }
+.container-fluid .screenShotImage, .container .screenShotImage {
+  min-height: 120px; }
+.container-fluid p, .container p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0 3px; }
+.container-fluid .anotherTextStyle p, .container .anotherTextStyle p {
+  padding: 0px 5px 0px 8px;
+  text-align: justify;
+  font-weight: normal; }
+.container-fluid .anotherTextStyle h5, .container .anotherTextStyle h5 {
+  padding: 0px 5px 0px 8px;
+  font-weight: bold; }
+.container-fluid .onlineGamesText, .container .onlineGamesText {
+  color: #840000;
+  background: #A4C6E2; }
+.container-fluid .translatedFixedText, .container .translatedFixedText {
+  top: 50%;
+  left: 50%;
+  color: #FFF;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -100%); }
+.container-fluid .fa, .container .fa {
+  padding: 0px 2px 0px 2px;
+  font-size: 28px; }
+  .container-fluid .fa.fa-search, .container .fa.fa-search {
+    font-size: 12px;
+    color: grey; }
+  .container-fluid .fa.fa-star, .container .fa.fa-star {
+    color: #A4C6E2;
+    font: normal normal normal 10px/1 FontAwesome;
+    padding: 0; }
+    .container-fluid .fa.fa-star.checked, .container .fa.fa-star.checked {
+      color: #f62828; }
+  .container-fluid .fa.fa-facebook, .container .fa.fa-facebook, .container-fluid .fa.fa-twitter, .container .fa.fa-twitter, .container-fluid .fa.fa-linkedin, .container .fa.fa-linkedin, .container-fluid .fa.fa-github, .container .fa.fa-github {
+    font: normal normal normal 14px/1 FontAwesome; }
+.container-fluid .menuRow, .container .menuRow {
+  position: absolute;
+  top: 27px;
+  width: 90%;
+  z-index: 99;
+  padding: 0px 0px 0px 0px;
+  border-radius: 0px 9px 9px 0px;
+  text-align: center;
+  background-color: #FFF; }
+  .container-fluid .menuRow input[type='text'], .container .menuRow input[type='text'] {
+    width: 82%;
+    color: #000;
+    margin-top: 4px;
+    font-style: italic; }
+  .container-fluid .menuRow .btn, .container .menuRow .btn {
+    width: 80%;
+    margin-top: 6px;
+    padding-left: 5px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold; }
+    .container-fluid .menuRow .btn:hover, .container .menuRow .btn:hover {
+      background-color: inherit; }
+    .container-fluid .menuRow .btn:focus, .container .menuRow .btn:focus {
+      background-color: inherit; }
+  .container-fluid .menuRow *, .container .menuRow * {
+    color: #840000;
+    padding: 0px;
+    margin: 0px; }
+.container-fluid .ImageRow, .container .ImageRow {
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  width: 70%; }
+  .container-fluid .ImageRow .Image, .container .ImageRow .Image {
+    padding-left: 3px;
+    z-index: 999; }
+.container-fluid #myVideo, .container #myVideo {
+  box-shadow: 0px 0px 19px 12px #696969;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  min-height: 260px; }
+  .container-fluid #myVideo img, .container #myVideo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+.container-fluid .MoreGamesRow, .container .MoreGamesRow, .container-fluid .LatestFeaturedRow, .container .LatestFeaturedRow, .container-fluid .TermsConditionRow, .container .TermsConditionRow {
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  z-index: 99; }
+  .container-fluid .MoreGamesRow h5, .container .MoreGamesRow h5, .container-fluid .LatestFeaturedRow h5, .container .LatestFeaturedRow h5, .container-fluid .TermsConditionRow h5, .container .TermsConditionRow h5 {
+    margin-top: 12px;
+    margin-bottom: 5px; }
+  .container-fluid .MoreGamesRow .col-sm-4, .container .MoreGamesRow .col-sm-4, .container-fluid .LatestFeaturedRow .col-sm-4, .container .LatestFeaturedRow .col-sm-4, .container-fluid .TermsConditionRow .col-sm-4, .container .TermsConditionRow .col-sm-4 {
+    padding: 4px 3px 0px 0px;
+    text-align: center; }
+    .container-fluid .MoreGamesRow .col-sm-4 .specificImageFrame, .container .MoreGamesRow .col-sm-4 .specificImageFrame, .container-fluid .LatestFeaturedRow .col-sm-4 .specificImageFrame, .container .LatestFeaturedRow .col-sm-4 .specificImageFrame, .container-fluid .TermsConditionRow .col-sm-4 .specificImageFrame, .container .TermsConditionRow .col-sm-4 .specificImageFrame {
+      background-image: url("../prev/frame.png");
+      background-size: 100% 100%; }
+      .container-fluid .MoreGamesRow .col-sm-4 .specificImageFrame img, .container .MoreGamesRow .col-sm-4 .specificImageFrame img, .container-fluid .LatestFeaturedRow .col-sm-4 .specificImageFrame img, .container .LatestFeaturedRow .col-sm-4 .specificImageFrame img, .container-fluid .TermsConditionRow .col-sm-4 .specificImageFrame img, .container .TermsConditionRow .col-sm-4 .specificImageFrame img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 0px 0px 12px 0px;
+        padding: 6px 6px 5px 9px; }
+  .container-fluid .MoreGamesRow .col-sm-12, .container .MoreGamesRow .col-sm-12, .container-fluid .LatestFeaturedRow .col-sm-12, .container .LatestFeaturedRow .col-sm-12, .container-fluid .TermsConditionRow .col-sm-12, .container .TermsConditionRow .col-sm-12 {
+    background-color: #FFF;
+    box-shadow: 0px 0px 7px #A4C6E2;
+    padding: 10px 0px 0px 0px;
+    font-weight: normal; }
+.container-fluid .LatestFeaturedRow, .container .LatestFeaturedRow {
+  margin-top: -20%;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  z-index: 99; }
+  .container-fluid .LatestFeaturedRow .col-sm-5, .container .LatestFeaturedRow .col-sm-5, .container-fluid .LatestFeaturedRow .col-sm-6, .container .LatestFeaturedRow .col-sm-6 {
+    background-color: #FFF;
+    margin: 0px 0px 0px 24px;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 7px #A4C6E2; }
+    .container-fluid .LatestFeaturedRow .col-sm-5 img, .container .LatestFeaturedRow .col-sm-5 img, .container-fluid .LatestFeaturedRow .col-sm-6 img, .container .LatestFeaturedRow .col-sm-6 img {
+      width: 100%;
+      min-height: 65px;
+      max-height: 100%; }
+  .container-fluid .LatestFeaturedRow .col-sm-6, .container .LatestFeaturedRow .col-sm-6, .container-fluid .LatestFeaturedRow .col-sm-7, .container .LatestFeaturedRow .col-sm-7 {
+    margin: 28px 0px 0px 0px; }
+    .container-fluid .LatestFeaturedRow .col-sm-6 img, .container .LatestFeaturedRow .col-sm-6 img, .container-fluid .LatestFeaturedRow .col-sm-7 img, .container .LatestFeaturedRow .col-sm-7 img {
+      min-height: 80px;
+      max-height: 100%; }
+  .container-fluid .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-5, .container .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-5, .container-fluid .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-6, .container .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-6, .container-fluid .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-7, .container .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-7 {
+    margin: 0px;
+    padding: 0px 3px 4px 0px;
+    box-shadow: none; }
+  .container-fluid .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-6 img, .container .LatestFeaturedRow .InsideLatestFeaturedRow .col-sm-6 img {
+    width: 100%;
+    min-height: 65px;
+    max-height: 100%; }
+.container-fluid .ImagesInVideo, .container .ImagesInVideo {
+  width: 100%;
+  position: absolute; }
+  .container-fluid .ImagesInVideo .col-sm-3, .container .ImagesInVideo .col-sm-3, .container-fluid .ImagesInVideo .col-sm-6, .container .ImagesInVideo .col-sm-6 {
+    padding: 0; }
+    .container-fluid .ImagesInVideo .col-sm-3 img:first-child, .container .ImagesInVideo .col-sm-3 img:first-child, .container-fluid .ImagesInVideo .col-sm-6 img:first-child, .container .ImagesInVideo .col-sm-6 img:first-child {
+      margin: 0;
+      width: 100%;
+      min-height: 120px;
+      height: auto;
+      max-height: 45%; }
+    .container-fluid .ImagesInVideo .col-sm-3 img:last-child, .container .ImagesInVideo .col-sm-3 img:last-child, .container-fluid .ImagesInVideo .col-sm-6 img:last-child, .container .ImagesInVideo .col-sm-6 img:last-child {
+      margin: 0;
+      width: 100%;
+      min-height: 140px;
+      height: auto;
+      max-height: 55%; }
+    .container-fluid .ImagesInVideo .col-sm-3 h4, .container .ImagesInVideo .col-sm-3 h4, .container-fluid .ImagesInVideo .col-sm-6 h4, .container .ImagesInVideo .col-sm-6 h4 {
+      font-weight: bold; }
+.container-fluid .SpecificDescriptionRow, .container .SpecificDescriptionRow {
+  margin-top: 100px;
+  margin-right: inherit;
+  margin-bottom: 20px;
+  margin-left: inherit;
+  z-index: 99;
+  box-shadow: 0px 0px 7px #A4C6E2; }
+  .container-fluid .SpecificDescriptionRow .textDescriptionStyle, .container .SpecificDescriptionRow .textDescriptionStyle {
+    color: #FFF;
+    font-family: 'MEgalopolisExtraRegular';
+    font-size: 21px;
+    padding: 0px 0px 0px 8px;
+    text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000, 2px -1px 0 #000000, 2px 0 0 #000000; }
+  .container-fluid .SpecificDescriptionRow .col-sm-12, .container .SpecificDescriptionRow .col-sm-12 {
+    padding: 0px 0px 0px 0px; }
+  .container-fluid .SpecificDescriptionRow .col-sm-6, .container .SpecificDescriptionRow .col-sm-6 {
+    width: 46%;
+    padding: 0px;
+    margin: 0px 5px 0px 5px; }
+.container-fluid .NowTrending, .container .NowTrending, .container-fluid .FreePlayZoneRow, .container .FreePlayZoneRow, .container-fluid .OnlinePlayZoneRow, .container .OnlinePlayZoneRow, .container-fluid .TopDownloadZoneRow, .container .TopDownloadZoneRow, .container-fluid .ScreenShotRow, .container .ScreenShotRow, .container-fluid .YouMayLikeRow, .container .YouMayLikeRow, .container-fluid .SubscriptionInfo, .container .SubscriptionInfo {
+  margin-top: inherit;
+  margin-right: inherit;
+  margin-bottom: 20px;
+  margin-left: inherit;
+  z-index: 99;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px #A4C6E2; }
+  .container-fluid .NowTrending h5, .container .NowTrending h5, .container-fluid .FreePlayZoneRow h5, .container .FreePlayZoneRow h5, .container-fluid .OnlinePlayZoneRow h5, .container .OnlinePlayZoneRow h5, .container-fluid .TopDownloadZoneRow h5, .container .TopDownloadZoneRow h5, .container-fluid .ScreenShotRow h5, .container .ScreenShotRow h5, .container-fluid .YouMayLikeRow h5, .container .YouMayLikeRow h5, .container-fluid .SubscriptionInfo h5, .container .SubscriptionInfo h5 {
+    font-size: 12px;
+    background-color: #A4C6E2;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 2px 1px #848484;
+    padding: 5px 0px 5px 5px;
+    margin-top: 0px;
+    margin-right: -4px;
+    margin-bottom: 7px;
+    margin-left: -4px;
+    z-index: 99; }
+  .container-fluid .NowTrending .col-sm-4, .container .NowTrending .col-sm-4, .container-fluid .FreePlayZoneRow .col-sm-4, .container .FreePlayZoneRow .col-sm-4, .container-fluid .OnlinePlayZoneRow .col-sm-4, .container .OnlinePlayZoneRow .col-sm-4, .container-fluid .TopDownloadZoneRow .col-sm-4, .container .TopDownloadZoneRow .col-sm-4, .container-fluid .ScreenShotRow .col-sm-4, .container .ScreenShotRow .col-sm-4, .container-fluid .YouMayLikeRow .col-sm-4, .container .YouMayLikeRow .col-sm-4, .container-fluid .SubscriptionInfo .col-sm-4, .container .SubscriptionInfo .col-sm-4 {
+    padding: 0px 5px 0px 5px; }
+  .container-fluid .NowTrending .SliderWithThree .col-sm-4, .container .NowTrending .SliderWithThree .col-sm-4, .container-fluid .FreePlayZoneRow .SliderWithThree .col-sm-4, .container .FreePlayZoneRow .SliderWithThree .col-sm-4, .container-fluid .OnlinePlayZoneRow .SliderWithThree .col-sm-4, .container .OnlinePlayZoneRow .SliderWithThree .col-sm-4, .container-fluid .TopDownloadZoneRow .SliderWithThree .col-sm-4, .container .TopDownloadZoneRow .SliderWithThree .col-sm-4, .container-fluid .ScreenShotRow .SliderWithThree .col-sm-4, .container .ScreenShotRow .SliderWithThree .col-sm-4, .container-fluid .YouMayLikeRow .SliderWithThree .col-sm-4, .container .YouMayLikeRow .SliderWithThree .col-sm-4, .container-fluid .SubscriptionInfo .SliderWithThree .col-sm-4, .container .SubscriptionInfo .SliderWithThree .col-sm-4 {
+    margin-right: -5px; }
+.container-fluid .SubscriptionInfo h5, .container .SubscriptionInfo h5 {
+  background-color: #FFFF;
+  box-shadow: 0px 2px 6px #A4C6E2; }
+.container-fluid .SubscriptionInfo p, .container .SubscriptionInfo p {
+  text-align: justify;
+  font-size: 11px;
+  font-weight: normal; }
+.container-fluid .ratings, .container .ratings {
+  right: 8px;
+  text-align: right;
+  position: absolute;
+  transform: translateY(-110%); }
+
+/*# sourceMappingURL=global.css.map */
